@@ -6,6 +6,6 @@ homepage = "https://github.com/vicvenscob/tree"
 license = "MIT"
 url = "https://github.com/vicvenscob/tree/archive/refs/heads/main.tar.gz"
 depends = []
-post_install = "/home/rust/.cargo/bin/rustc tree.rs -o /usr/local/bin/tree"
+post_install = "HOME=/home/rust /home/rust/.cargo/bin/rustc tree.rs -o /usr/local/bin/tree"
 
 [package.files]
