@@ -1,0 +1,12 @@
+[package]
+name = "tree"
+version = "0.1.0"
+description = "a better tree command"
+homepage = "https://github.com/vicvenscob/tree"
+license = "MIT"
+url = "https://github.com/vicvenscob/tree/archive/refs/heads/main.tar.gz"
+
+[package.files]
+"bin/tree" = "/usr/local/bin/tree"
+
+[package.depends]
